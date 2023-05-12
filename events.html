@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дополнительно</title>
+  <style>
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+  }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}  
+
+    .dropdown:hover .dropbtn {background-color: red;}
+
+  .img{
+      background-color: LemonChiffon;
+    }
+    .photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 30%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+   }
+    
+</style>
+</head>
+<body class="img">
+  <div class="dropdown">
+    <button class="dropbtn"> Меню</button>
+    <div class="dropdown-content">
+      <a href="/index.html">Главное</a>
+      <a href="/story.html">О событии дня</a>
+      <a href="/profession.html">О профессии</a>
+      <a href="/galleray.html">Галерея</a>
+    </div>
+  </div>
+
+   <div>
+   <center>
+    <a href="/story.html" class="previous"> &laquo;Назад</a> |
+    <a href="/index.html" class="main1"> Главное </a> |
+    <a href="/profession.html" class="next"> Вперед &raquo;</a>
+   </center>
+  </div>
+    </div>
+
+  <div>
+    <center><h2><button>Дополнительно</button></h2></center>
+    <center><h3>Традиции праздника</h3></center>
+   <p>Традиционно 2 октября на разных площадках – в вузах, школах, администрациях регионов и общественных центрах – проводятся разнообразные тематические конференции, встречи, семинары, мастер-классы, на которых обсуждаются ключевые вопросы, связанные с улучшением социальной защиты детей из неблагополучных семей и подростков с психическими расстройствами, студентам вузов практикующие педагоги передают свои навыки и знания. Не только в бедных, но и в богатых государствах существует немало проблем, связанных с воспитанием детей из интернатов, детдомов и трудных семей, в которых зачастую родители ведут себя не вполне ответственно. Именно по этой причине в День социального педагога меньше внимания уделяется красочным торжествам и увеселительным концертам. Преимущественно праздничные мероприятия носят "серьезный" характер и преследует главную цель: продемонстрировать обществу реальные проблемы детей, которые нуждаются в постоянной и квалифицированной защите и помощи, а также показать ежедневную работу, которую ведут социальные педагоги. Кстати, социальных педагогов в их профессиональный праздник активно поздравляют многие родители детей, получившие помощь в решении своих проблем.</p>
+
+    <div class="photo" data-title="Международный день Социального Педагога">
+      <center><img class="animate1" src="/image/Image2.png"></center>
+    </div>
+    <div>
+      <map name="Navigation">
+          <area shape="rect" coords="583, 479, 1318, 843" href="https://radiosputnik.ria.ru/20211002/pedagog-1751255922.html">
+      </map>
+    </div>
+
+    <center><h3>Интересные факты</h3></center>
+
+    <p>Несмотря на весьма богатую историю социальной педагогики, должность "социальный педагог" в системе образования появилась только в 2000 году.
+    </p>
+    <p>Социальные педагоги в интернатах и детских домах занимаются трудоустройством своих выпускников, помогая им и принимая живое участие в их дальнейшей судьбе и выборе специфики работы.</p>
+    <p>
+      Концепция социального воспитания советского педагога и воспитателя А.С. Макаренко решением ЮНЕСКО в 1988 году получила международное признание. Он был зачислен в самые выдающиеся педагоги XX века.
+    </p>
+  </div>
+  
+</body>
+</html>
